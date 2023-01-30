@@ -1,0 +1,137 @@
+/* css reset */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+ol, ul {
+    list-style: none;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* my code */
+
+body {
+    background-color: bisque;
+}
+header {
+    text-align: center;
+    font-size: 50px;
+}
+.container {
+    margin: 0 auto;
+    width: 1500px;
+    height: 500px;
+    font-family: 'Inter', sans-serif;
+}
+.calculator-body {
+    position: relative;
+    margin: 0 auto;
+    background-color: grey;
+    width: 360px;
+    height: 540px;
+    border-radius: 30px;
+}
+.calculator-screen {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+    width: 300px;
+    height: 60px;
+    background-color: rgb(111, 145, 96);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    cursor: pointer;
+    font-size: 50px;
+}
+.btn-pad{
+    display: flex;
+}
+.btn-numpad {
+    position: relative;
+    margin: 100px 40px 60px 40px;
+}
+.btn-line {
+    display: flex;
+    justify-content: center;
+}
+.btn-line__btn {
+    border-radius: 50%;
+    background-color: rgb(61, 61, 61);
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    user-select: none;
+}
+.btn-line__btn:hover {
+    filter: brightness(120%);
+}
+.btn-line__btn:active {
+    filter: brightness(90%);
+}
+.btn-line-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; 
+}
+.equal{
+    border-radius: 30px;
+    width: 130px; 
+}
+.btn-line__bottom-btn {
+    margin: 5px;
+    border-radius: 50%;
+    background-color: rgb(61, 61, 61);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    user-select: none;
+}
+.btn-line__bottom-btn:hover {
+    filter: brightness(120%);
+}
+.btn-line__bottom-btn:active {
+    filter: brightness(90%);
+}
+.btn-column {
+    position: relative;
+    margin: 100px 0 60px 0;
+}
+.orange {
+    background-color: rgb(255, 147, 23);
+}
+.bottom-orange{
+    background-color: rgb(255, 147, 23);
+    margin: 5px;
+}
+
